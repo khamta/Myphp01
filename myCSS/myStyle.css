@@ -1,0 +1,26 @@
+@font-face {
+    font-family: NotoSansLao;
+    src: url(../fonts/NotoSansLaoUI-Regular.ttf);
+}
+
+body {
+    font-family: NotoSansLao;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.nav-link:hover {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+}
+
+.dropdown-menu-end {
+    right: 0;
+    left: auto;
+}
